@@ -14,7 +14,7 @@ namespace Todo.Domain.Commands
         {
             Success = success;
             Message = message;
-            Data = Data;
+            Data = date;
         }
     }
 }

@@ -2,9 +2,10 @@ using Flunt.Notifications;
 using Todo.Domain.Commands;
 using Todo.Domain.Commands.Contracts;
 using Todo.Domain.Entities;
+using Todo.Domain.Handlers.Contracts;
 using Todo.Domain.Repositories;
 
-namespace Todo.Domain.Handlers.Contracts
+namespace Todo.Domain.Handlers
 {
     public class TodoHandler :
         Notifiable,

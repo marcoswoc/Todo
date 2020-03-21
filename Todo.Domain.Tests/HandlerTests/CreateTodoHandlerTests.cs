@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Todo.Domain.Commands;
-using Todo.Domain.Handlers.Contracts;
+using Todo.Domain.Handlers;
 using Todo.Domain.Tests.repositories;
 
 namespace Todo.Domain.Tests.HandlerTests
